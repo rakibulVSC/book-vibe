@@ -1,13 +1,13 @@
 import Banner from '@/components/shared/homepage/Banner';
 import React from 'react';
-import Books from './books/page';
+import Book from '@/components/shared/homepage/Book';
 
 
 const page = () => {
   return (
     <div>
       <Banner/>
-      <Books/>
+      <Book/>
     </div>
   );
 };
